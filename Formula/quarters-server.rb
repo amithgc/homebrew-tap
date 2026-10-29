@@ -4,6 +4,8 @@ class QuartersServer < Formula
   version "0.4.0"
   license "MIT"
 
+  depends_on :linux
+
   on_linux do
     on_intel do
       url "https://github.com/amithgc/quarters/releases/download/v#{version}/quarters-linux-amd64.tar.gz"
@@ -14,8 +16,6 @@ class QuartersServer < Formula
       sha256 "9b427a33e9d09756063486cedb33c2096b04339cffe92d5dfa721d3c423b23a5"
     end
   end
-
-  depends_on :linux
 
   def install
     bin.install "quarters"
