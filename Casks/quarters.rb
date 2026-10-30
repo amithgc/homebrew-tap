@@ -1,6 +1,6 @@
 cask "quarters" do
-  version "0.5.1"
-  sha256 "d685c9a7862a986a537662bb38373886f0c71043c4494ded61581756f70c8125"
+  version "0.5.2"
+  sha256 "ab3ecec8a72a4bfd8a50b4a71b19116811798196efc627ce87c417fcc6e4f259"
 
   url "https://github.com/amithgc/quarters/releases/download/v#{version}/Quarters-#{version}.zip"
   name "Quarters"
