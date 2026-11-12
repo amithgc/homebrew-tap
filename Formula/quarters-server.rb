@@ -1,7 +1,7 @@
 class QuartersServer < Formula
   desc "Quarters as a server: coding agents across your projects, from a browser"
   homepage "https://quarters.amithgc.com/"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT"
 
   depends_on :linux
@@ -9,11 +9,11 @@ class QuartersServer < Formula
   on_linux do
     on_intel do
       url "https://github.com/amithgc/quarters/releases/download/v#{version}/quarters-linux-amd64.tar.gz"
-      sha256 "1042b843314da13754f1de7127e0b6fee831f947c657b287fd4d897f8ebd3e76"
+      sha256 "91c7495a06c2d2669d649014cd7b3252bc3d5c8a97000622c347f318c4e0d29a"
     end
     on_arm do
       url "https://github.com/amithgc/quarters/releases/download/v#{version}/quarters-linux-arm64.tar.gz"
-      sha256 "93acbca50db4d45493818c95c060e9c2315d73996ea7e17313822806ff1eaecb"
+      sha256 "ce643da1b1e8eb1fe373bc5b78f21916cda64691f6206089cace23142c50a2b5"
     end
   end
 
